@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Página principal{% endblock %}
+{% block page_title %}Kikoshop{% endblock %}
+
+{% block content %}
+<style>
+    .content-wrapper {
+        text-align: center;
+    }
+    .content-wrapper h1 {
+        margin-top: 50px; /* Espacio superior para el título */
+    }
+</style>
+
+<div class="content-wrapper">
+    <h1>Pulsa esta imagen para ir a la página</h1>
+     <a href="{{ url_for('Contact') }}">
+        <img src="https://www.headsem.com/wp-content/uploads/2016/03/componentes-para-construir-el-mejor-PC.png" alt="PC Gamer" style="width: 500px; height: auto;">
+    </a>
+</div>
+{% endblock %}

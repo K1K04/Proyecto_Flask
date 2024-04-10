@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block title %}Formulario de Búsqueda{% endblock %}
+{% block page_title %}Kikoshop{% endblock %}
+
+{% block content %}
+<style>
+    .content-wrapper {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .content-wrapper h1 {
+        margin-bottom: 20px; 
+    }
+    form {
+        display: inline-block; 
+    }
+    label {
+        display: block;
+        margin-bottom: 10px; 
+    }
+    input[type="text"] {
+        width: 300px; 
+        padding: 8px;
+        border-radius: 5px; 
+        border: 1px solid #ccc; 
+        margin-bottom: 10px; 
+    }
+    button {
+        padding: 10px 20px; 
+        background-color: #007bff; 
+        color: #fff; 
+        border: none; 
+        border-radius: 5px; 
+        cursor: pointer; 
+    }
+    button:hover {
+        background-color: #0056b3; 
+    }
+</style>
+
+<div class="content-wrapper">
+    <h1>Buscador de ordenadores y periféricos</h1>
+    <form action="/listaxxxs" method="post">
+        <label for="search_term">Buscar ordenadores y periféricos:</label>
+        <input type="text" id="search_term" name="search_term" required>
+        <button type="submit">Buscar</button>
+    </form>
+</div>
+{% endblock %}
