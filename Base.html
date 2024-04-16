@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Título por defecto{% endblock %}</title>
+    <!-- Enlace a tu archivo CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header>
+    <!-- Aquí va tu cabecera -->
+    <h1>¡Bienvenido a la Kikoshop!</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="{{ url_for('Contact') }}">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- Este bloque será reemplazado por el contenido de las páginas individuales -->
+    {% block content %}{% endblock %}
+</main>
+
+<footer>
+    <!-- Aquí va tu pie de página -->
+    <p>&copy; 2024 Mi Sitio Web</p>
+</footer>
+</body>
+</html>
