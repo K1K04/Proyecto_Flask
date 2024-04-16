@@ -1,0 +1,257 @@
+[
+    {
+      "tipo": "portatil",
+      "titulo": "Portátil Acer Aspire 5",
+      "marca": "Acer",
+      "precio": 899.99,
+      "descripcion": "Portátil ligero y potente con procesador Intel Core i7, 16GB de RAM y 512GB SSD.",
+      "caracteristicas": {
+        "procesador": "Intel Core i7 de 10ma generación",
+        "ram": "16GB DDR4 a 2666MHz",
+        "almacenamiento": "512GB SSD NVMe",
+        "pantalla": "Pantalla IPS de 15.6 pulgadas Full HD (1920 x 1080)",
+        "graficos": "NVIDIA GeForce MX350 con 2GB de VRAM dedicada"
+      },
+      "puertos": {
+        "usb": 3,
+        "hdmi": 1,
+        "ethernet": 1,
+        "audio": "Combo audio jack"
+      },
+      "bateria": "Batería de polímero de litio de 4 celdas (hasta 8 horas de duración)",
+      "sistema_operativo": "Windows 10 Home",
+      "dimensiones": {
+        "altura": "1.8 cm",
+        "anchura": "36.3 cm",
+        "profundidad": "25.4 cm"
+      },
+      "peso": "1.8 kg",
+      "imagenes": [
+        "acer_aspire_5_1.jpg",
+        "acer_aspire_5_2.jpg",
+        "acer_aspire_5_3.jpg"
+      ]
+    },
+    {
+      "tipo": "sobremesa",
+      "titulo": "PC de Escritorio HP Pavilion",
+      "marca": "HP",
+      "precio": 1099.99,
+      "descripcion": "Potente PC de escritorio con procesador Intel Core i9, 32GB de RAM y 1TB SSD + 2TB HDD.",
+      "caracteristicas": {
+        "procesador": "Intel Core i9-10900K de 10 núcleos y 20 hilos",
+        "ram": "32GB DDR4 a 3200MHz",
+        "almacenamiento": "1TB NVMe SSD + 2TB HDD a 7200RPM",
+        "graficos": "NVIDIA GeForce RTX 3080 con 10GB de GDDR6X"
+      },
+      "puertos": {
+        "usb": 10,
+        "hdmi": 1,
+        "displayport": 3,
+        "ethernet": 1,
+        "audio": "Salida de audio de 3.5 mm"
+      },
+      "sistema_operativo": "Windows 11 Pro",
+      "dimensiones": {
+        "altura": "44.2 cm",
+        "anchura": "16.5 cm",
+        "profundidad": "43.3 cm"
+      },
+      "peso": "13.1 kg",
+      "imagenes": [
+        "hp_pavilion_1.jpg",
+        "hp_pavilion_2.jpg",
+        "hp_pavilion_3.jpg"
+      ]
+    },
+    {
+      "tipo": "periferico",
+      "titulo": "Teclado mecánico Corsair K95 RGB Platinum",
+      "marca": "Corsair",
+      "precio": 179.99,
+      "descripcion": "Teclado mecánico de alta gama con retroiluminación RGB personalizable y switches Cherry MX Speed.",
+      "caracteristicas": {
+        "tipo": "Mecánico",
+        "layout": "QWERTY",
+        "conectividad": "USB 3.0",
+        "iluminacion": "RGB por tecla con LightEdge",
+        "macros": "6 teclas macro programables",
+        "reposamuñecas": "Desmontable"
+      },
+      "dimensiones": {
+        "altura": "3.6 cm",
+        "anchura": "46.5 cm",
+        "profundidad": "17 cm"
+      },
+      "peso": "1.32 kg",
+      "imagenes": [
+        "corsair_k95_rgb_1.jpg",
+        "corsair_k95_rgb_2.jpg",
+        "corsair_k95_rgb_3.jpg"
+      ]
+    },
+    {
+      "tipo": "periferico",
+      "titulo": "Monitor ASUS ROG Swift PG279Q",
+      "marca": "ASUS",
+      "precio": 699.99,
+      "descripcion": "Monitor gaming de 27 pulgadas con resolución WQHD, frecuencia de actualización de 144Hz y tecnología G-Sync.",
+      "caracteristicas": {
+        "tamaño_pantalla": "27 pulgadas",
+        "resolucion": "2560x1440 (WQHD)",
+        "frecuencia_refresco": "144Hz",
+        "tecnologia_sync": "G-Sync",
+        "tipo_panel": "IPS",
+        "tiempo_respuesta": "1ms (GTG)",
+        "brillo": "350 cd/m²",
+        "angulo_vision": "178° (H) / 178° (V)"
+      },
+      "puertos": {
+        "displayport": 1,
+        "hdmi": 1,
+        "usb": 2,
+        "audio": "Jack de auriculares"
+      },
+      "dimensiones": {
+        "altura": "41.9 cm",
+        "anchura": "61.9 cm",
+        "profundidad": "23.4 cm"
+      },
+      "peso": "7 kg",
+      "imagenes": [
+        "asus_rog_swift_1.jpg",
+        "asus_rog_swift_2.jpg",
+        "asus_rog_swift_3.jpg"
+      ]
+    },
+    {
+      "tipo": "portatil",
+      "titulo": "Portátil Dell XPS 15",
+      "marca": "Dell",
+      "precio": 1499.99,
+      "descripcion": "Portátil premium con pantalla táctil 4K y procesador Intel Core i7.",
+      "caracteristicas": {
+        "procesador": "Intel Core i7 de 11ma generación",
+        "ram": "32GB DDR4 a 3200MHz",
+        "almacenamiento": "1TB SSD PCIe NVMe",
+        "pantalla": "Pantalla táctil 4K Ultra HD+ (3840 x 2400)",
+        "graficos": "NVIDIA GeForce GTX 1650 Ti con 4GB de GDDR6"
+      },
+      "puertos": {
+        "usb": 4,
+        "hdmi": 1,
+        "thunderbolt": 2,
+        "audio": "Combo audio jack"
+      },
+      "bateria": "Batería de 6 celdas (hasta 10 horas de duración)",
+      "sistema_operativo": "Windows 11 Pro",
+      "dimensiones": {
+        "altura": "1.7 cm",
+        "anchura": "34 cm",
+        "profundidad": "23.5 cm"
+      },
+      "peso": "1.83 kg",
+      "imagenes": [
+        "dell_xps_15_1.jpg",
+        "dell_xps_15_2.jpg",
+        "dell_xps_15_3.jpg"
+      ]
+    },
+    {
+      "tipo": "sobremesa",
+      "titulo": "PC de Escritorio Lenovo Legion Tower 5",
+      "marca": "Lenovo",
+      "precio": 1299.99,
+      "descripcion": "Potente PC de escritorio para gaming con procesador AMD Ryzen y gráficos NVIDIA GeForce RTX.",
+      "caracteristicas": {
+        "procesador": "AMD Ryzen 7 5800X de 8 núcleos y 16 hilos",
+        "ram": "16GB DDR4 a 3200MHz",
+        "almacenamiento": "512GB SSD PCIe NVMe",
+        "graficos": "NVIDIA GeForce RTX 3060 Ti con 8GB de GDDR6"
+      },
+      "puertos": {
+        "usb": 8,
+        "hdmi": 1,
+        "displayport": 2,
+        "ethernet": 1,
+        "audio": "Salida de audio de 3.5 mm"
+      },
+      "sistema_operativo": "Windows 10 Home",
+      "dimensiones": {
+        "altura": "43.3 cm",
+        "anchura": "18 cm",
+        "profundidad": "45.8 cm"
+      },
+      "peso": "12.5 kg",
+      "imagenes": [
+        "lenovo_legion_tower_5_1.jpg",
+        "lenovo_legion_tower_5_2.jpg",
+        "lenovo_legion_tower_5_3.jpg"
+      ]
+    },
+    {
+      "tipo": "periferico",
+      "titulo": "Ratón Logitech G502 HERO",
+      "marca": "Logitech",
+      "precio": 79.99,
+      "descripcion": "Ratón gaming con sensor HERO 25K y 11 botones programables.",
+      "caracteristicas": {
+        "sensor": "HERO 25K",
+        "dpi": "100 - 25,600",
+        "velocidad_seguimiento": "400 IPS",
+        "aceleración_maxima": "> 40 G",
+        "botones_programables": 11,
+        "iluminacion": "RGB personalizable"
+      },
+      "dimensiones": {
+        "altura": "13.2 cm",
+        "anchura": "7.5 cm",
+        "profundidad": "4 cm"
+      },
+      "peso": "121 g",
+      "imagenes": [
+        "logitech_g502_hero_1.jpg",
+        "logitech_g502_hero_2.jpg",
+        "logitech_g502_hero_3.jpg"
+      ]
+    },
+    {
+      "tipo": "periferico",
+      "titulo": "Monitor LG UltraGear 27GN950-B",
+      "marca": "LG",
+      "precio": 999.99,
+      "descripcion": "Monitor gaming de 27 pulgadas con resolución 4K y frecuencia de actualización de 144Hz.",
+      "caracteristicas": {
+        "tamaño_pantalla": "27 pulgadas",
+        "resolucion": "3840x2160 (4K UHD)",
+        "frecuencia_refresco": "144Hz",
+        "tecnologia_sync": "G-Sync Compatible",
+        "tipo_panel": "IPS Nano",
+        "tiempo_respuesta": "1ms (GTG)",
+        "brillo": "400 cd/m²",
+        "angulo_vision": "178° (H) / 178° (V)"
+      },
+      "puertos": {
+        "displayport": 1,
+        "hdmi": 2,
+        "usb": 3,
+        "audio": "Jack de auriculares"
+      },
+      "dimensiones": {
+        "altura": "36.5 cm",
+        "anchura": "61.5 cm",
+        "profundidad": "27.2 cm"
+      },
+      "peso": "6.3 kg",
+      "imagenes": [
+        "lg_ultragear_27gn950_b_1.jpg",
+        "lg_ultragear_27gn950_b_2.jpg",
+        "lg_ultragear_27gn950_b_3.jpg"
+      ]
+    }
+   
+   
+   
+   
+  ]
+  
