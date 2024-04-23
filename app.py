@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Carga los datos del archivo JSON
-with open('/media/usuario/KIKO/PaginaPC/datos.json', 'r', encoding='utf-8') as json_file:
+with open('datos.json', 'r', encoding='utf-8') as json_file:
     datos = json.load(json_file)
 
 @app.route('/')
