@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% block title %}Detalles del Producto{% endblock %}
+{% block page_title %}Detalles del Producto{% endblock %}
+
+{% block content %}
+<div class="content">
+    <h2>{{ producto.titulo }}</h2>
+
+    <div class="product-details">
+        <div class="product-image">
+            <img src="{{ producto.imagenes }}" alt="{{ producto.titulo }}">
+        </div>
+
+        <div class="product-info">
+            <table class="product-table">
+                <tr>
+                    <th colspan="2">Información del Producto</th>
+                </tr>
+                <tr>
+                    <td class="attribute">Descripción:</td>
+                    <td>{{ producto.descripcion }}</td>
+                </tr>
+                <tr>
+                    <td class="attribute">Marca:</td>
+                    <td>{{ producto.marca }}</td>
+                </tr>
+                <tr>
+                    <td class="attribute">Precio:</td>
+                    <td>{{ producto.precio }}€</td>
+                </tr>
+                <tr>
+                    <td class="attribute">Sistema Operativo:</td>
+                    <td>{{ producto.sistema_operativo }}</td>
+                </tr>
+                <tr>
+                    <td class="attribute">Dimensiones:</td>
+                    <td>{{ producto.dimensiones.altura }} x {{ producto.dimensiones.anchura }} x {{ producto.dimensiones.profundidad }}</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><strong>Características</strong></td>
+                </tr>
+                {% for caracteristica, valor in producto.caracteristicas.items() %}
+                <tr>
+                    <td class="attribute">{{ caracteristica }}</td>
+                    <td>{{ valor }}</td>
+                </tr>
+                {% endfor %}
+                <tr>
+                    <td colspan="2"><strong>Puertos</strong></td>
+                </tr>
+                {% if 'puertos' in producto %}
+                    {% for puerto, cantidad in producto.puertos.items() %}
+                    <tr>
+                        <td class="attribute">{{ puerto }}</td>
+                        <td>{{ cantidad }}</td>
+                    </tr>
+                    {% endfor %}
+                {% else %}
+                    <tr>
+                        <td colspan="2">No se especificaron puertos para este producto.</td>
+                    </tr>
+                {% endif %}
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}
