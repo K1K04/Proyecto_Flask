@@ -1,5 +1,6 @@
 [
     {
+      "id" : 1,
       "tipo": "portatil",
       "titulo": "Portátil Acer Aspire 5",
       "marca": "Acer",
@@ -26,13 +27,10 @@
         "profundidad": "25.4 cm"
       },
       "peso": "1.8 kg",
-      "imagenes": [
-        "acer_aspire_5_1.jpg",
-        "acer_aspire_5_2.jpg",
-        "acer_aspire_5_3.jpg"
-      ]
+      "imagenes": "https://static2-ecemea.acer.com/media/catalog/product/_/a/_acer-aspire-5-a517-58gm-fp-bl-in11-gray_main1000_nx.kjleb.001.png?quality=80&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500&format=jpeg"
     },
     {
+      "id" : 2,
       "tipo": "sobremesa",
       "titulo": "PC de Escritorio HP Pavilion",
       "marca": "HP",
@@ -58,13 +56,10 @@
         "profundidad": "43.3 cm"
       },
       "peso": "13.1 kg",
-      "imagenes": [
-        "hp_pavilion_1.jpg",
-        "hp_pavilion_2.jpg",
-        "hp_pavilion_3.jpg"
-      ]
+      "imagenes": "https://m.media-amazon.com/images/I/71jYpON06rL.jpg"
     },
     {
+      "id" : 3,
       "tipo": "periferico",
       "titulo": "Teclado mecánico Corsair K95 RGB Platinum",
       "marca": "Corsair",
@@ -84,13 +79,10 @@
         "profundidad": "17 cm"
       },
       "peso": "1.32 kg",
-      "imagenes": [
-        "corsair_k95_rgb_1.jpg",
-        "corsair_k95_rgb_2.jpg",
-        "corsair_k95_rgb_3.jpg"
-      ]
+      "imagenes": "https://assets.corsair.com/image/upload/f_auto,q_auto/v1/akamai/pdp/k95-rgb-xt/images/k95_rgb_xt_front.png"
     },
     {
+      "id" : 4,
       "tipo": "periferico",
       "titulo": "Monitor ASUS ROG Swift PG279Q",
       "marca": "ASUS",
@@ -118,13 +110,10 @@
         "profundidad": "23.4 cm"
       },
       "peso": "7 kg",
-      "imagenes": [
-        "asus_rog_swift_1.jpg",
-        "asus_rog_swift_2.jpg",
-        "asus_rog_swift_3.jpg"
-      ]
+      "imagenes": ""
     },
     {
+      "id" : 5,
       "tipo": "portatil",
       "titulo": "Portátil Dell XPS 15",
       "marca": "Dell",
@@ -151,13 +140,10 @@
         "profundidad": "23.5 cm"
       },
       "peso": "1.83 kg",
-      "imagenes": [
-        "dell_xps_15_1.jpg",
-        "dell_xps_15_2.jpg",
-        "dell_xps_15_3.jpg"
-      ]
+      "imagenes": "https://dlcdnwebimgs.asus.com/gain/72C16A36-4EE3-4AC4-A58A-35F6B8A2FB6F/w717/h525"
     },
     {
+      "id" : 6,
       "tipo": "sobremesa",
       "titulo": "PC de Escritorio Lenovo Legion Tower 5",
       "marca": "Lenovo",
@@ -183,13 +169,10 @@
         "profundidad": "45.8 cm"
       },
       "peso": "12.5 kg",
-      "imagenes": [
-        "lenovo_legion_tower_5_1.jpg",
-        "lenovo_legion_tower_5_2.jpg",
-        "lenovo_legion_tower_5_3.jpg"
-      ]
+      "imagenes": "https://m.media-amazon.com/images/I/81e82nI885L.jpg"
     },
     {
+      "id" : 7,
       "tipo": "periferico",
       "titulo": "Ratón Logitech G502 HERO",
       "marca": "Logitech",
@@ -209,13 +192,10 @@
         "profundidad": "4 cm"
       },
       "peso": "121 g",
-      "imagenes": [
-        "logitech_g502_hero_1.jpg",
-        "logitech_g502_hero_2.jpg",
-        "logitech_g502_hero_3.jpg"
-      ]
+      "imagenes": "https://thumb.pccomponentes.com/w-530-530/articles/17/179806/1044-logitech-g502-hero-raton-gaming-16000dpi-7240de56-3e16-43bd-b449-639f9bfa5e62.jpg"
     },
     {
+      "id" : 8,
       "tipo": "periferico",
       "titulo": "Monitor LG UltraGear 27GN950-B",
       "marca": "LG",
@@ -243,15 +223,121 @@
         "profundidad": "27.2 cm"
       },
       "peso": "6.3 kg",
-      "imagenes": [
-        "lg_ultragear_27gn950_b_1.jpg",
-        "lg_ultragear_27gn950_b_2.jpg",
-        "lg_ultragear_27gn950_b_3.jpg"
-      ]
-    }
-   
-   
-   
-   
+      "imagenes": "https://www.lg.com/es/images/monitores/md07513189/gallery/27GN950-01.jpg"
+    },
+    {
+      "id": 9,
+      "tipo": "ordenador",
+      "titulo": "Portátil ASUS ROG Zephyrus G14",
+      "marca": "ASUS",
+      "precio": 1499.99,
+      "descripcion": "Ordenador portátil gaming ultradelgado con pantalla de 14 pulgadas y potente rendimiento.",
+      "caracteristicas": {
+        "procesador": "AMD Ryzen 9 5900HS",
+        "memoria_ram": "16 GB DDR4",
+        "almacenamiento": "SSD 1 TB",
+        "tarjeta_grafica": "NVIDIA GeForce RTX 3060",
+        "pantalla": "14 pulgadas Full HD (1920x1080)",
+        "refresco_pantalla": "120Hz",
+        "teclado": "Retroiluminado RGB",
+        "conectividad": "Wi-Fi 6, Bluetooth 5.0",
+        "sistema_operativo": "Windows 10 Home"
+      },
+      "puertos": {
+        "usb": 4,
+        "usb_tipo_c": 2,
+        "hdmi": 1,
+        "audio": "Jack de auriculares / Micrófono"
+      },
+      "dimensiones": {
+        "altura": "1.79 cm",
+        "anchura": "32.4 cm",
+        "profundidad": "22.2 cm"
+      },
+      "peso": "1.6 kg",
+      "imagenes": "https://dlcdnwebimgs.asus.com/gain/E0275281-F18B-42C3-A025-3331C35A888F"
+    },
+    {
+      "id": 10,
+      "tipo": "smartphone",
+      "titulo": "iPhone 13 Pro",
+      "marca": "Apple",
+      "precio": 1099.00,
+      "descripcion": "El último smartphone de gama alta de Apple, con un potente rendimiento y características avanzadas de cámara.",
+      "caracteristicas": {
+        "pantalla": "Super Retina XDR OLED de 6.1 pulgadas",
+        "resolucion_pantalla": "2532x1170 píxeles",
+        "procesador": "Chip A15 Bionic",
+        "memoria_ram": "6 GB",
+        "almacenamiento": "128 GB, 256 GB, 512 GB, 1 TB",
+        "sistema_operativo": "iOS 15",
+        "camara_trasera": {
+          "resolucion": "Triple cámara de 12 MP",
+          "caracteristicas": "Gran angular, ultra gran angular y teleobjetivo con zoom óptico 3x",
+          "grabacion_video": "4K a 24/30/60 fps, 1080p a 30/60/120/240 fps"
+        },
+        "camara_frontal": {
+          "resolucion": "Cámara TrueDepth de 12 MP",
+          "caracteristicas": "Modo noche, Deep Fusion, HDR inteligente 4, grabación de video HDR Dolby Vision"
+        },
+        "bateria": "Batería recargable de iones de litio integrada",
+        "conectividad": "5G, Wi-Fi 6, Bluetooth 5.0",
+        "seguridad": "Face ID"
+      },
+      "puertos": {
+        "lightning": 1
+      },
+      "dimensiones": {
+        "altura": "146.7 mm",
+        "anchura": "71.5 mm",
+        "profundidad": "7.65 mm"
+      },
+      "peso": "204 g",
+      "imagenes": "https://i.ebayimg.com/images/g/56cAAOSwhCxjcpHn/s-l1200.webp"
+    },
+    {
+      "id": 11,
+      "tipo": "raton",
+      "titulo": "Logitech MX Master 3",
+      "marca": "Logitech",
+      "precio": 99.99,
+      "descripcion": "Ratón inalámbrico avanzado con precisión y comodidad mejoradas para usuarios profesionales.",
+      "caracteristicas": {
+        "conectividad": "Bluetooth, receptor USB Unifying",
+        "sensor": "Darkfield de alta precisión 4000 DPI",
+        "botones": "7 botones personalizables",
+        "bateria": "Recargable vía USB-C, hasta 70 días de autonomía",
+        "compatibilidad": "Windows, macOS, Linux"
+      },
+      "dimensiones": {
+        "altura": "51 mm",
+        "anchura": "84.3 mm",
+        "profundidad": "124.9 mm"
+      },
+      "peso": "141 g",
+      "imagenes": "https://i.blogs.es/fe0dcb/logi/840_560.jpg"
+    },
+    {
+      "id": 12,
+      "tipo": "teclado",
+      "titulo": "Corsair K95 RGB Platinum XT",
+      "marca": "Corsair",
+      "precio": 199.99,
+      "descripcion": "Teclado mecánico gaming premium con retroiluminación RGB y funciones avanzadas de personalización.",
+      "caracteristicas": {
+        "tipo_teclas": "Mecánicas Cherry MX RGB Speed",
+        "iluminacion": "RGB por tecla, 19 zonas LightEdge",
+        "repositorio_medios": "Teclas dedicadas para multimedia y control de volumen",
+        "reposamuñecas": "Desmontable de cuero sintético",
+        "software": "Corsair iCUE para personalización avanzada"
+      },
+      "dimensiones": {
+        "altura": "25 mm",
+        "anchura": "465 mm",
+        "profundidad": "171 mm"
+      },
+      "peso": "1.31 kg",
+      "imagenes": "https://compumarket.pe/fotos/producto_8000_3896_lg.jpg"
+    }            
   ]
   
