@@ -4,16 +4,15 @@ import os
 
 app = Flask(__name__)
 
-# Carga los datos del archivo JSON
-with open('datos.json', 'r', encoding='utf-8') as json_file:
-    datos = json.load(json_file)
-
 @app.route('/')
 def index():
     return render_template("index.html")
 
 @app.route('/Contact', methods=['GET', 'POST'])
 def Contact():
+    with open('datos.json', 'r', encoding='utf-8') as fich:
+        datos = json.load(fich)
+
     search_term = request.form.get('search_term', '')
     selected_brand = request.form.get('selected_brand', '')
     resultados = []
@@ -37,6 +36,9 @@ def Contact():
 
 @app.route('/producto/<int:id>')
 def mostrar_producto(id):
+    with open('datos.json', 'r', encoding='utf-8') as fich:
+        datos = json.load(fich)
+
     producto_encontrado = None
     for producto in datos:
         if producto['id'] == id:
@@ -46,6 +48,7 @@ def mostrar_producto(id):
         return render_template('producto.html', producto=producto_encontrado)
     else:
         return render_template('error.html', message='Producto no encontrado'), 404
-port=os.environ["PORT"]
+
 if __name__ == '__main__':
-    app.run("0.0.0.0", 5000, debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run("0.0.0.0", port, debug=True)
