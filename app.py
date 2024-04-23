@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, abort, redirect  
 import json
+import os
 
 app = Flask(__name__)
 
@@ -45,6 +46,6 @@ def mostrar_producto(id):
         return render_template('producto.html', producto=producto_encontrado)
     else:
         return render_template('error.html', message='Producto no encontrado'), 404
-
+port=os.environ["PORT"]
 if __name__ == '__main__':
     app.run("0.0.0.0", 5000, debug=True)
