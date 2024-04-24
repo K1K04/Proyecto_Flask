@@ -259,41 +259,29 @@
     },
     {
       "id": 10,
-      "tipo": "smartphone",
-      "titulo": "iPhone 13 Pro",
-      "marca": "Apple",
-      "precio": 1099.00,
-      "descripcion": "El último smartphone de gama alta de Apple, con un potente rendimiento y características avanzadas de cámara.",
+      "tipo": "monitor",
+      "titulo": "ASUS ROG Swift PG279Q",
+      "marca": "ASUS",
+      "precio": 699.99,
+      "descripcion": "Monitor gaming de 27 pulgadas con resolución WQHD, frecuencia de actualización de 165 Hz y tecnología G-Sync.",
       "caracteristicas": {
-        "pantalla": "Super Retina XDR OLED de 6.1 pulgadas",
-        "resolucion_pantalla": "2532x1170 píxeles",
-        "procesador": "Chip A15 Bionic",
-        "memoria_ram": "6 GB",
-        "almacenamiento": "128 GB, 256 GB, 512 GB, 1 TB",
-        "sistema_operativo": "iOS 15",
-        "camara_trasera": {
-          "resolucion": "Triple cámara de 12 MP",
-          "caracteristicas": "Gran angular, ultra gran angular y teleobjetivo con zoom óptico 3x",
-          "grabacion_video": "4K a 24/30/60 fps, 1080p a 30/60/120/240 fps"
-        },
-        "camara_frontal": {
-          "resolucion": "Cámara TrueDepth de 12 MP",
-          "caracteristicas": "Modo noche, Deep Fusion, HDR inteligente 4, grabación de video HDR Dolby Vision"
-        },
-        "bateria": "Batería recargable de iones de litio integrada",
-        "conectividad": "5G, Wi-Fi 6, Bluetooth 5.0",
-        "seguridad": "Face ID"
+        "tamaño_pantalla": "27 pulgadas",
+        "resolucion": "2560 x 1440 (WQHD)",
+        "frecuencia_refresco": "165 Hz",
+        "tecnologia_sync": "G-Sync"
       },
       "puertos": {
-        "lightning": 1
-      },
+        "displayport": 1,
+        "hdmi": 2,
+        "usb": 1,
+        "audio": "Jack 3.5 mm"},
       "dimensiones": {
-        "altura": "146.7 mm",
-        "anchura": "71.5 mm",
-        "profundidad": "7.65 mm"
+        "altura": "437 mm",
+        "anchura": "729 mm",
+        "profundidad": "65 mm"
       },
-      "peso": "204 g",
-      "imagenes": "https://i.ebayimg.com/images/g/56cAAOSwhCxjcpHn/s-l1200.webp"
+      "peso": "7 kg",
+      "imagenes": "https://www.modders-inc.com/wp-content/uploads/image//2015/10/1-ASUS-ROG-Swift-PG279Q-PG27AQ.jpg"
     },
     {
       "id": 11,
@@ -309,6 +297,8 @@
         "bateria": "Recargable vía USB-C, hasta 70 días de autonomía",
         "compatibilidad": "Windows, macOS, Linux"
       },
+      "puertos": {
+        "usb": "Type C"},
       "dimensiones": {
         "altura": "51 mm",
         "anchura": "84.3 mm",
@@ -331,6 +321,8 @@
         "reposamuñecas": "Desmontable de cuero sintético",
         "software": "Corsair iCUE para personalización avanzada"
       },
+      "puertos": {
+        "usb": "Type C"},
       "dimensiones": {
         "altura": "25 mm",
         "anchura": "465 mm",
